@@ -1,0 +1,126 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{python}
+# Single stacked ridgeline plot of log10FCO2 for each Site_Name
+# Ordered by Caldera; colored by Soil_Type; legend above in one line; x-axis 0..5
+
+import numpy as np
+import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.patches import Patch
+
+CSV_PATH = 'BothCalderasFluxesIsotopes.csv'
+PNG_OUT = 'ridgeline_log10FCO2_stacked_by_caldera_TOPLEGEND_ONELINE.png'
+PDF_OUT = 'ridgeline_log10FCO2_stacked_by_caldera_TOPLEGEND_ONELINE.pdf'
+
+# Tuning
+BW_ADJUST = 0.8
+PER_SITE_HEIGHT_IN = 0.28
+MAX_BAND_HEIGHT = 0.9
+
+raw = pd.read_csv(CSV_PATH)
+raw.columns = [c.strip() for c in raw.columns]
+raw['log10FCO2'] = pd.to_numeric(raw.get('log10FCO2'), errors='coerce')
+DF = raw.dropna(subset=['log10FCO2']).copy()
+for col in ['Caldera','Site_Name','Soil_Type']:
+    DF[col] = DF[col].astype(str)
+
+# Fixed x range as requested
+x_min, x_max = 0, 5
+
+# Modal Soil_Type per (Caldera, Site_Name)
+mode_soil = (
+    DF.groupby(['Caldera','Site_Name','Soil_Type']).size()
+      .reset_index(name='n')
+      .sort_values(['Caldera','Site_Name','n'], ascending=[True,True,False])
+      .drop_duplicates(['Caldera','Site_Name'])
+      .set_index(['Caldera','Site_Name'])['Soil_Type']
+)
+
+# Order ridgelines: by Caldera then Site_Name
+caldera_order = sorted(DF['Caldera'].unique())
+site_order = [(cal, s)
+              for cal in caldera_order
+              for s in sorted(DF.loc[DF['Caldera']==cal, 'Site_Name'].unique())]
+
+# Colors by Soil_Type
+soil_types = sorted(DF['Soil_Type'].unique())
+palette = sns.color_palette('Set2', max(3, len(soil_types)))
+soil_to_color = {soil: palette[i % len(palette)] for i, soil in enumerate(soil_types)}
+
+# Figure (extra top margin for one-line legend)
+n_sites_total = len(site_order)
+fig_height = n_sites_total * PER_SITE_HEIGHT_IN + 1.9
+fig, ax = plt.subplots(figsize=(10, fig_height))
+
+mpl.rcParams['axes.spines.right'] = False
+mpl.rcParams['axes.spines.top'] = False
+
+yticks, yticklabels = [], []
+current_idx = 0
+
+for cal, site in site_order:
+    vals = DF[(DF['Caldera']==cal) & (DF['Site_Name']==site)]['log10FCO2'].dropna().values
+    soil = mode_soil.get((cal, site), None)
+    color = soil_to_color.get(soil, 'gray')
+
+    if vals.size >= 2:
+        existing_lines = len(ax.lines)
+        sns.kdeplot(x=vals, ax=ax, bw_adjust=BW_ADJUST, clip=(x_min, x_max),
+                    color='black', lw=1, fill=False)
+        new_lines = ax.lines[existing_lines:]
+        if new_lines:
+            line = new_lines[-1]
+            x, y = line.get_data()
+            try: line.remove()
+            except Exception: pass
+            y_max = np.max(y) if np.size(y) else 0
+            y_scaled = (y / y_max) * MAX_BAND_HEIGHT if y_max > 0 else y
+            y_offset = current_idx
+            ax.fill_between(x, y_offset, y_offset + y_scaled, color=color, alpha=0.9, linewidth=0)
+            ax.hlines(y_offset, x_min, x_max, color='white', linewidth=0.6, alpha=0.8)
+        else:
+            ax.plot(vals, np.full_like(vals, current_idx+0.1), '|', color=color, ms=10, mew=1)
+    elif vals.size == 1:
+        ax.plot([vals[0]], [current_idx + 0.1], marker='o', ms=3, color=color, alpha=0.9)
+        ax.hlines(current_idx, x_min, x_max, color='white', linewidth=0.6, alpha=0.8)
+
+    yticks.append(current_idx)
+    yticklabels.append(site)
+    current_idx += 1
+
+# Caldera separators & labels
+pos = 0
+for cal in caldera_order:
+    n = sum(1 for (c, _) in site_order if c == cal)
+    if n == 0: continue
+    ax.axhline(pos - 0.5, color='0.7', lw=0.6, alpha=0.6)
+    ax.text(x_min, pos + (n - 1) / 2, cal, ha='left', va='center',
+            fontsize=10, fontweight='bold', color='0.25')
+    pos += n
+
+# Axes
+ax.set_xlim(x_min, x_max)  # <- fixed to 0..5
+ax.set_ylim(-0.5, n_sites_total - 0.5 + 0.9)
+ax.set_yticks(yticks)
+ax.set_yticklabels(yticklabels, fontsize=8)
+ax.set_xlabel('log10FCO2', fontsize=11)
+ax.set_ylabel('Site_Name', fontsize=11)
+ax.grid(axis='x', alpha=0.2)
+
+# Legend: top, single row
+handles = [Patch(facecolor=soil_to_color[s], edgecolor='none', label=s) for s in soil_types]
+ax.legend(handles=handles, title='Soil_Type',
+          loc='upper center', bbox_to_anchor=(0.5, 1.04),
+          frameon=False, ncol=len(soil_types), fontsize=9, title_fontsize=10)
+
+plt.tight_layout(rect=(0, 0, 1, 0.98))
+fig.savefig(PNG_OUT, dpi=200)
+fig.savefig(PDF_OUT)
+```
+

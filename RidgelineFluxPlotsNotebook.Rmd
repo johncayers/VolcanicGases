@@ -1,0 +1,165 @@
+---
+title: "Ridgeline Flux Plots"
+output:
+  html_document:
+    df_print: paged
+---
+
+The dataset has the following columns:
+
+- `Caldera`: This specifies the caldera name.
+- `Site_Name`: The name of the site within the caldera.
+- `Soil_Type`: The type of soil at the site.
+- `Date_of_Measurement`: The date when the measurement was made.
+- `CH4_Flux`: The methane flux.
+- `log10FCH4`: The base-10 logarithm of the methane flux.
+- `d13CH4_source`: The 㭁3C value for the methane source.
+- `CO2_Flux`: The carbon dioxide flux.
+- `log10FCO2`: The base-10 logarithm of the carbon dioxide flux.
+- `d13CO2_source`: The 㭁3C value for the carbon dioxide source.
+
+Below is R code (using **tidyverse**, **ggplot2**, and **ggridges**) to create **ridgeline density plots** of `log10FCO2` and `log10FCH4` for each `Site_Name`, **stacked vertically** with a shared x-axis in each plot. Ridgelines are **grouped by `Caldera` then `Soil_Type`** via the y-axis ordering, and **colored by `Soil_Type`**. Both plots use the **same site order** and include **horizontal guideline separators** between sites. No plot title is used. Legends are placed at the top and forced onto one row.
+
+# Load packages
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ggridges)
+```
+
+# ---- 1) Read and prepare data ----
+
+```{r}
+df <- readr::read_csv("BothCalderasFluxesIsotopes.csv",
+                      show_col_types = FALSE)
+
+# Keep only the variables needed for plotting and ensure consistent types
+plot_df <- df %>%
+  transmute(
+    Caldera = as.factor(Caldera),
+    Site_Name = as.factor(Site_Name),
+    Soil_Type = as.factor(Soil_Type),
+    log10FCO2 = as.numeric(log10FCO2),
+    log10FCH4 = as.numeric(log10FCH4)
+  )
+
+# Create a single, consistent vertical ordering for sites:
+# grouped by Caldera, then Soil_Type, then Site_Name
+site_order <- plot_df %>%
+   distinct(Caldera, Soil_Type, Site_Name) %>%
+  arrange(Caldera, Soil_Type, Site_Name) %>%
+  mutate(Site_Name = as.character(Site_Name)) %>%
+  pull(Site_Name)
+
+plot_df <- plot_df %>%
+  mutate(
+    Site_Name = factor(as.character(Site_Name), levels = site_order)
+  )
+
+# Y positions for guideline separators (one per site level)
+guidelines <- tibble(Site_Name = levels(plot_df$Site_Name))
+```
+
+# ---- 2) Common theme settings ----
+
+```{r}
+ridge_theme <- theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_blank(), # explicit: no title
+    legend.position = "top",
+    legend.direction = "horizontal",
+    legend.box = "horizontal",
+    legend.title = element_blank(),
+    # Force legend onto one line when possible
+    legend.text = element_text(size = 10),
+    panel.grid.major.y = element_blank(), # we'll draw our own site separators
+    panel.grid.minor = element_blank()
+  )
+
+```
+
+# ---- 3) CO2 ridgeline plot ----
+
+```{r}
+p_co2 <- ggplot(
+  plot_df %>% filter(is.finite(log10FCO2)),
+  aes(x = log10FCO2, y = Site_Name, fill = Soil_Type)
+) +
+  # Guidelines separating sites
+  geom_hline(
+    data = guidelines,
+    aes(yintercept = 1:length(site_order)),
+    inherit.aes = FALSE,
+    color = "grey85",
+    linewidth = 0.4
+  ) +
+  # Kernel density ridgelines
+  geom_density_ridges(
+    scale = 1.2,
+    alpha = 0.8,
+    color = "grey30",
+    size = 0.2,
+    rel_min_height = 0.01
+  ) +
+  coord_cartesian(xlim = c(0, 5)) +
+  scale_x_continuous(limits = c(0, 5)) +
+  guides(fill = guide_legend(nrow = 1, byrow = TRUE)) +
+  labs(x = expression(log[10](F[CO[2]])), y = NULL) +
+  ridge_theme
+print(p_co2)
+```
+
+# ---- 4) CH4 ridgeline plot ----
+
+```{r}
+# The filter step below changes the number of riddges, so I need to
+# recalculate the number of ridges
+ch4plot_df <- filter(is.finite(log10FCH4))
+p_ch4 <- ggplot(
+  plot_df %>% filter(is.finite(log10FCH4)),
+  aes(x = log10FCH4, y = Site_Name, fill = Soil_Type)
+) +
+  # Guidelines separating sites
+  geom_hline(
+    data = guidelines,
+    aes(yintercept = 1:length(site_order)),
+    inherit.aes = FALSE,
+    color = "grey85",
+    linewidth = 0.4
+  ) +
+  # Kernel density ridgelines
+  geom_density_ridges(
+    scale = 1.2,
+    alpha = 0.8,
+    color = "grey30",
+    size = 0.2,
+    rel_min_height = 0.01
+  ) +
+  coord_cartesian(xlim = c(-4, 2)) +
+  scale_x_continuous(limits = c(-4, 2)) +
+  guides(fill = guide_legend(nrow = 1, byrow = TRUE)) +
+  labs(x = expression(log[10](F[CH[4]])), y = NULL) +
+  ridge_theme
+print(p_ch4)
+
+```
+
+# ---- 5) Export figures (PNG for preview, SVG for publication) ----
+
+```{r}
+# CO2
+ggsave("ridgeline_log10FCO2.png", plot = p_co2, width = 9, height = 10, dpi = 300)
+ggsave("ridgeline_log10FCO2.svg", plot = p_co2, width = 9, height = 10)
+
+# CH4
+ggsave("ridgeline_log10FCH4.png", plot = p_ch4, width = 9, height = 10, dpi = 300)
+ggsave("ridgeline_log10FCH4.svg", plot = p_ch4, width = 9, height = 10)
+```
+```
+## Output files created
+
+- **`ridgeline_log10FCO2.png`**: Preview-quality PNG of the CO₂ ridgeline density plot (`log10FCO2`) with x-axis limited to **-2 to 5**, legend at the top (one row), and horizontal site-separating guidelines.
+- **`ridgeline_log10FCO2.svg`**: Publication-quality SVG version of the same CO₂ plot (vector format).
+- **`ridgeline_log10FCH4.png`**: Preview-quality PNG of the CH₄ ridgeline density plot (`log10FCH4`) with x-axis limited to **-4 to 4**, using the **same site ordering** and styling as the CO₂ plot.
+- **`ridgeline_log10FCH4.svg`**: Publication-quality SVG version of the same CH₄ plot (vector format).
