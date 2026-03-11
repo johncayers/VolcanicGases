@@ -1,0 +1,118 @@
+---
+title: "Caldera Emissions Methane Isotopes Plot"
+output: html_notebook
+---
+
+# Publication-quality d13C-CH4 vs d2H-CH4 scatterplot
+# - Shape mapped to Caldera
+# - Color mapped to Soil_Classification
+# - Exports to PNG + SVG
+
+# ---- Libraries ----
+
+```{r}
+suppressPackageStartupMessages({
+  library(tidyverse)  # includes ggplot2, readr, dplyr, etc.
+  library(svglite)    # robust SVG device for ggsave()
+})
+```
+
+# ---- File paths (edit as needed) ----
+
+```{r}
+infile <- "static_cham_CH4_summary_Moran.csv"
+
+# Save outputs to a subfolder for cleanliness
+out_dir <- file.path(getwd(), "figures")
+dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+
+out_png <- file.path(out_dir, "CH4_isotopes_d13C_vs_d2H_by_caldera_soil.png")
+out_svg <- file.path(out_dir, "CH4_isotopes_d13C_vs_d2H_by_caldera_soil.svg")
+```
+
+# ---- Read data with basic error handling ----
+
+```{r}
+if (!file.exists(infile)) {
+  stop(
+    "Input file not found: ", infile, "\n",
+    "Place the CSV in your working directory (", getwd(), ") or update `infile`."
+  )
+}
+
+dat <- readr::read_csv(infile, show_col_types = FALSE)
+```
+
+# ---- Validate required columns ----
+
+```{r}
+required_cols <- c("d13C_CH4", "d2H_CH4", "Caldera", "Soil_Classification")
+missing_cols <- setdiff(required_cols, names(dat))
+if (length(missing_cols) > 0) {
+  stop("Missing required column(s): ", paste(missing_cols, collapse = ", "))
+}
+```
+
+# ---- Clean / coerce types ----
+
+```{r}
+plot_dat <- dat %>%
+  transmute(
+    d13C_CH4 = as.numeric(d13C_CH4),
+    d2H_CH4  = as.numeric(d2H_CH4),
+    Caldera = as.factor(Caldera),
+    Soil_Classification = as.factor(Soil_Classification)
+  ) %>%
+  drop_na(d13C_CH4, d2H_CH4, Caldera, Soil_Classification)
+```
+
+# ---- Labels and Plot (use delta symbols) ----
+
+```{r}
+x_lab <- expression(delta^{13}*C*"-CH"[4]*" (\u2030, VPDB)")
+y_lab <- expression(delta^{2}*H*"-CH"[4]*" (\u2030, VSMOW)")
+
+# ---- Plot ----
+p <- ggplot(
+  plot_dat,
+  aes(x = d13C_CH4, y = d2H_CH4, shape = Caldera, color = Soil_Classification)
+) +
+  geom_point(size = 3, alpha = 0.9, stroke = 0.6) +
+  coord_cartesian(xlim = c(-100, -10), ylim = c(-400, -50), expand = FALSE) +
+  labs(x = x_lab, y = y_lab, shape = "Caldera", color = "Soil classification") +
+  scale_color_brewer(palette = "Dark2", na.translate = FALSE) +  # color-blind friendly
+  theme_classic(base_size = 12) +
+  theme(
+    legend.position = "right",
+    legend.title = element_text(face = "bold"),
+    axis.title = element_text(face = "bold"),
+    axis.line = element_line(linewidth = 0.6),
+    axis.ticks = element_line(linewidth = 0.6)
+  )
+print(p)
+```
+
+# ---- Export (PNG + SVG) ----
+
+```{r}
+# Choose dimensions suitable for papers/slides; tweak as needed.
+ggsave(
+  filename = out_png,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  dpi = 300,
+  bg = "white"
+)
+
+ggsave(
+  filename = out_svg,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  bg = "white"
+)
+
+# ---- Print locations to console ----
+message("Wrote PNG: ", out_png)
+message("Wrote SVG: ", out_svg)
+```
+
