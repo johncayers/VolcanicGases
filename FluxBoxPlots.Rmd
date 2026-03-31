@@ -1,0 +1,139 @@
+---
+title: "Fig. 4 boxplots"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+suppressPackageStartupMessages({
+  library(tidyverse)  # includes ggplot2, readr, dplyr, etc.
+  library(svglite)    # robust SVG device for ggsave()
+})
+```
+
+# ---- File paths ----
+
+```{r}
+infile <- "BothCalderasFluxesIsotopes.csv"
+
+# Save outputs to a subfolder for cleanliness
+out_dir <- file.path(getwd(), "figures")
+dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+
+out_CH4_png <- file.path(out_dir, "CH4_Fluxes.png")
+out_CH4_svg <- file.path(out_dir, "CH4_Fluxes.svg")
+out_CO2_png <- file.path(out_dir, "CO2_Fluxes.png")
+out_CO2_svg <- file.path(out_dir, "CO2_Fluxes.svg")
+
+```
+
+# ---- Read data ----
+
+```{r}
+dat <- read_csv(infile, 
+    col_types = cols(Date_of_Measurement = col_date(format = "%m/%d/%Y")))
+
+```
+
+# ---- Validate required columns ----
+
+```{r}
+required_cols <- c("Caldera", "Site_Name", "Soil_Type", "log10FCH4", "log10FCO2")
+missing_cols <- setdiff(required_cols, names(dat))
+if (length(missing_cols) > 0) {
+  stop("Missing required column(s): ", paste(missing_cols, collapse = ", "))
+}
+```
+
+# ---- Clean / coerce types ----
+
+```{r}
+plot_dat <- dat %>%
+  transmute(
+    log10FCH4 = as.numeric(log10FCH4),
+    log10FCO2  = as.numeric(log10FCO2),
+    Caldera = as.factor(Caldera),
+    Site_Name = as.factor(Site_Name),
+    Soil_Type = as.factor(Soil_Type)
+  ) %>%
+  drop_na(log10FCH4, log10FCO2, Caldera, Site_Name, Soil_Type)
+```
+
+# ---- log10CH4 Flux BoxPlot ----
+
+```{r}
+x_lab <- ("Soil Type")
+y_lab <- expression("log" [10]* " F CH" [4]* "")
+
+# ---- Plot ----
+p <- ggplot(plot_dat,
+  aes(x = Soil_Type, y = log10FCH4, fill = Caldera, position = Caldera)) +
+    geom_boxplot(na.rm = TRUE, alpha = 0.3) +
+  labs(x = x_lab, y = y_lab) +
+  scale_color_brewer(palette = "Dark2", na.translate = FALSE) +  # color-blind friendly
+  theme_classic(base_size = 12)
+print(p)
+```
+
+# ---- Export CH4 boxplots (PNG + SVG) ----
+
+```{r}
+# Choose dimensions suitable for papers/slides; tweak as needed.
+ggsave(
+  filename = out_CH4_png,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  dpi = 300,
+  bg = "white"
+)
+
+ggsave(
+  filename = out_CH4_svg,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  bg = "white"
+)
+
+# ---- Print locations to console ----
+message("Wrote PNG: ", out_CH4_png)
+message("Wrote SVG: ", out_CH4_svg)
+```
+
+# ---- log10CO2 Flux BoxPlot ----
+
+```{r}
+y_lab <- expression("log" [10]* " F CO" [2]* "")
+
+p <- ggplot(plot_dat,
+  aes(x = Soil_Type, y = log10FCO2, fill = Caldera, position = Caldera)) +
+    geom_boxplot(na.rm = TRUE, alpha = 0.3) +
+  labs(x = x_lab, y = y_lab) +
+  scale_color_brewer(palette = "Dark2", na.translate = FALSE) +  # color-blind friendly
+  theme_classic(base_size = 12)
+print(p)
+```
+
+# ---- Export CO2 boxplots (PNG + SVG) ----
+
+```{r}
+# Choose dimensions suitable for papers/slides; tweak as needed.
+ggsave(
+  filename = out_CO2_png,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  dpi = 300,
+  bg = "white"
+)
+
+ggsave(
+  filename = out_CO2_svg,
+  plot = p,
+  width = 7.0, height = 5.0, units = "in",
+  bg = "white"
+)
+
+# ---- Print locations to console ----
+message("Wrote PNG: ", out_CO2_png)
+message("Wrote SVG: ", out_CO2_svg)
+```
