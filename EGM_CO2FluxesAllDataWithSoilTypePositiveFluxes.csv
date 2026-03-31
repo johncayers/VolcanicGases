@@ -1,0 +1,627 @@
+Year,Site,Group,Soil_Type,fCO2,log10fCO2
+2019,EETR,East Entrance Road,Acid-Sulphate,914.64,2.96125019
+2019,EETR,East Entrance Road,Acid-Sulphate,2957.6,3.470939438
+2019,EETR,East Entrance Road,Acid-Sulphate,52.8,1.722633923
+2019,EETR,East Entrance Road,Acid-Sulphate,292.8,2.466571072
+2019,EETR,East Entrance Road,Acid-Sulphate,224.64,2.35148709
+2019,GVNT,Gas Vents,Acid-Sulphate,72.96,1.863084825
+2019,GVNT,Gas Vents,Acid-Sulphate,16.56,1.219060332
+2019,GVNT,Gas Vents,Acid-Sulphate,24.48,1.388811413
+2019,GVNT,Gas Vents,Acid-Sulphate,41.76,1.62076049
+2019,GVNT,Gas Vents,Acid-Sulphate,19.2,1.283301229
+2019,GVNT,Gas Vents,Acid-Sulphate,77.52,1.889413764
+2019,GVNT,Gas Vents,Acid-Sulphate,82.56,1.916769684
+2019,GVNT,Gas Vents,Acid-Sulphate,81.36,1.91041094
+2019,GVNT,Gas Vents,Acid-Sulphate,116.4,2.06595298
+2019,GVNT,Gas Vents,Acid-Sulphate,24.48,1.388811413
+2019,GVNT,Gas Vents,Acid-Sulphate,51.84,1.714664993
+2019,GVNT,Gas Vents,Acid-Sulphate,141.84,2.151798723
+2019,GVNT,Gas Vents,Acid-Sulphate,23.04,1.362482475
+2019,GVNT,Gas Vents,Acid-Sulphate,27.6,1.440909082
+2019,GVNT,Gas Vents,Acid-Sulphate,86.64,1.937718444
+2019,GVNT,Gas Vents,Acid-Sulphate,1170.72,3.068453038
+2019,GVNT,Gas Vents,Acid-Sulphate,385.44,2.585956783
+2019,GVNT,Gas Vents,Acid-Sulphate,71.76,1.85588243
+2019,GVNT,Gas Vents,Acid-Sulphate,99.36,1.997211583
+2019,GVNT,Gas Vents,Acid-Sulphate,33.84,1.529430354
+2019,GVNT,Gas Vents,Acid-Sulphate,655.68,2.816691937
+2019,GVNT,Gas Vents,Acid-Sulphate,417.36,2.620510824
+2019,GVNT,Gas Vents,Acid-Sulphate,69.36,1.841109084
+2019,GVNT,Gas Vents,Acid-Sulphate,102.96,2.012668534
+2019,GVNT,Gas Vents,Acid-Sulphate,143.04,2.155457501
+2019,GVNT,Gas Vents,Acid-Sulphate,24,1.380211242
+2019,GVNT,Gas Vents,Acid-Sulphate,613.92,2.788111782
+2019,GVNT,Gas Vents,Acid-Sulphate,93.12,1.969042967
+2019,GVNT,Gas Vents,Acid-Sulphate,473.76,2.67555839
+2019,GVNT,Gas Vents,Acid-Sulphate,50.88,1.706547103
+2019,GVNT,Gas Vents,Acid-Sulphate,8.16,0.911690159
+2019,GVNT,Gas Vents,Acid-Sulphate,24.96,1.397244581
+2019,GVNT,Gas Vents,Acid-Sulphate,73.44,1.865932668
+2019,GVNT,Gas Vents,Acid-Sulphate,85.92,1.934094268
+2019,MDVC,Mud Volcano,Acid-Sulphate,909.84,2.958965026
+2019,MDVC,Mud Volcano,Acid-Sulphate,909.6,2.958850452
+2019,MDVC,Mud Volcano,Acid-Sulphate,516.72,2.713255272
+2019,MDVC,Mud Volcano,Acid-Sulphate,108.24,2.034387784
+2019,MDVC,Mud Volcano,Acid-Sulphate,38.4,1.584331224
+2019,MDVC,Mud Volcano,Acid-Sulphate,28.56,1.455758203
+2019,MDVC,Mud Volcano,Acid-Sulphate,128.88,2.110185527
+2019,MDVC,Mud Volcano,Acid-Sulphate,27.6,1.440909082
+2019,MDVC,Mud Volcano,Acid-Sulphate,125.52,2.098712931
+2019,MDVC,Mud Volcano,Acid-Sulphate,127.68,2.106122874
+2019,MDVC,Mud Volcano,Acid-Sulphate,48.24,1.683407299
+2019,MDVC,Mud Volcano,Acid-Sulphate,2.64,0.421603927
+2019,MDVC,Mud Volcano,Acid-Sulphate,7.92,0.898725182
+2019,MDVC,Mud Volcano,Acid-Sulphate,54.24,1.734319681
+2019,MDVC,Mud Volcano,Acid-Sulphate,3.12,0.494154594
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.48,-0.318758763
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,2.4,0.380211242
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.24,-0.619788758
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.44,0.158362492
+2019,DISY,Daisy Geyser,Neutral-Chloride,,
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.72,-0.142667504
+2019,DISY,Daisy Geyser,Neutral-Chloride,,
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.48,-0.318758763
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.2,0.079181246
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.44,0.158362492
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.72,-0.142667504
+2019,DISY,Daisy Geyser,Neutral-Chloride,0.96,-0.017728767
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.68,0.225309282
+2019,DISY,Daisy Geyser,Neutral-Chloride,1.44,0.158362492
+2019,DISY,Daisy Geyser,Neutral-Chloride,2.16,0.334453751
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.72,-0.142667504
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.48,-0.318758763
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.72,-0.142667504
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,,
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.96,-0.017728767
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.72,-0.142667504
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,0.72,-0.142667504
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,9144,3.961136217
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,7.2,0.857332496
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,3.36,0.526339277
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,7.2,0.857332496
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,1.92,0.283301229
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,4.32,0.635483747
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,9.36,0.971275849
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,2.16,0.334453751
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,10.08,1.003460532
+2019,NGBN,Norris Geyser Basin,Neutral-Chloride,50.4,1.702430536
+2019,WTHB,West Thumb,Neutral-Chloride,,
+2019,WTHB,West Thumb,Neutral-Chloride,,
+2019,WTHB,West Thumb,Neutral-Chloride,,
+2019,WTHB,West Thumb,Neutral-Chloride,0.96,-0.017728767
+2019,WTHB,West Thumb,Neutral-Chloride,1.44,0.158362492
+2019,WTHB,West Thumb,Neutral-Chloride,,
+2019,WTHB,West Thumb,Neutral-Chloride,1.2,0.079181246
+2019,WTHB,West Thumb,Neutral-Chloride,0.24,-0.619788758
+2019,MMTH,Mammoth Hot Springs,Travertine,7.68,0.88536122
+2019,MMTH,Mammoth Hot Springs,Travertine,2.88,0.459392488
+2019,MMTH,Mammoth Hot Springs,Travertine,5.76,0.760422483
+2019,MMTH,Mammoth Hot Springs,Travertine,5.28,0.722633923
+2019,MMTH,Mammoth Hot Springs,Travertine,11.28,1.0523091
+2019,MMTH,Mammoth Hot Springs,Travertine,2.64,0.421603927
+2019,MMTH,Mammoth Hot Springs,Travertine,4.8,0.681241237
+2019,MMTH,Mammoth Hot Springs,Travertine,6.24,0.79518459
+2019,MMTH,Mammoth Hot Springs,Travertine,9.6,0.982271233
+2019,MMTH,Mammoth Hot Springs,Travertine,10.32,1.013679697
+2019,MMTH,Mammoth Hot Springs,Travertine,85.68,1.932879458
+2019,MMTH,Mammoth Hot Springs,Travertine,203.76,2.309118932
+2019,MMTH,Mammoth Hot Springs,Travertine,136.8,2.136086097
+2019,MMTH,Mammoth Hot Springs,Travertine,181.92,2.259880447
+2019,MMTH,Mammoth Hot Springs,Travertine,135.36,2.131490346
+2019,MMTH,Mammoth Hot Springs,Travertine,27.84,1.444669231
+2019,MMTH,Mammoth Hot Springs,Travertine,30.96,1.490800952
+2019,MMTH,Mammoth Hot Springs,Travertine,34.56,1.538573734
+2019,MMTH,Mammoth Hot Springs,Travertine,34.08,1.532499586
+2019,MMTH,Mammoth Hot Springs,Travertine,46.08,1.66351247
+2019,MMTH,Mammoth Hot Springs,Travertine,,
+2019,MMTH,Mammoth Hot Springs,Travertine,0.72,-0.142667504
+2019,MMTH,Mammoth Hot Springs,Travertine,1.44,0.158362492
+2019,MMTH,Mammoth Hot Springs,Travertine,1.44,0.158362492
+2019,MMTH,Mammoth Hot Springs,Travertine,1.2,0.079181246
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,65.52,1.816373889
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,30.72,1.487421211
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,55.92,1.747567163
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,65.04,1.813180533
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,36.72,1.564902673
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,64.32,1.808346036
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,67.44,1.828917562
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,36.48,1.56205483
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,60,1.77815125
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,66.72,1.824256038
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,36,1.556302501
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,53.28,1.726564216
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,67.2,1.827369273
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,35.52,1.550472957
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,55.68,1.745699227
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,61.44,1.788451207
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,36.48,1.56205483
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,53.76,1.73045926
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,63.36,1.801815169
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,36.96,1.567731963
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,57.12,1.756788199
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,65.52,1.816373889
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,37.44,1.57333584
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,56.64,1.753123245
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,66.24,1.821120324
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,37.2,1.57054294
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,56.64,1.753123245
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,67.2,1.827369273
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,37.92,1.578868329
+2019,SBGY,Steamboat Geyser,Neutral-Chloride,57.12,1.756788199
+2018,EETR,East Entrance Road,Acid-Sulphate,32.64,1.51375015
+2018,EETR,East Entrance Road,Acid-Sulphate,61.44,1.788451207
+2018,EETR,East Entrance Road,Acid-Sulphate,620.88,2.79300767
+2018,EETR,East Entrance Road,Acid-Sulphate,214.56,2.331548761
+2018,EETR,East Entrance Road,Acid-Sulphate,23.28,1.366982976
+2018,EETR,East Entrance Road,Acid-Sulphate,6,0.77815125
+2018,EETR,East Entrance Road,Acid-Sulphate,36.48,1.56205483
+2018,EETR,East Entrance Road,Acid-Sulphate,7.68,0.88536122
+2018,EETR,East Entrance Road,Acid-Sulphate,42,1.62324929
+2018,EETR,East Entrance Road,Acid-Sulphate,729.12,2.862799011
+2018,EETR,East Entrance Road,Acid-Sulphate,113.52,2.055072382
+2018,EETR,East Entrance Road,Acid-Sulphate,18.24,1.261024834
+2018,EETR,East Entrance Road,Acid-Sulphate,71.52,1.854427506
+2018,EETR,East Entrance Road,Acid-Sulphate,58.8,1.769377326
+2018,EETR,East Entrance Road,Acid-Sulphate,36.24,1.559188189
+2018,EETR,East Entrance Road,Acid-Sulphate,217.2,2.336859821
+2018,EETR,East Entrance Road,Acid-Sulphate,686.16,2.836425397
+2018,EETR,East Entrance Road,Acid-Sulphate,34.08,1.532499586
+2018,EETR,East Entrance Road,Acid-Sulphate,4.08,0.610660163
+2018,EETR,East Entrance Road,Acid-Sulphate,42.24,1.62572391
+2018,EETR,East Entrance Road,Acid-Sulphate,12.24,1.087781418
+2018,EETR,East Entrance Road,Acid-Sulphate,83.04,1.919287341
+2018,EETR,East Entrance Road,Acid-Sulphate,1317.12,3.119625344
+2018,EETR,East Entrance Road,Acid-Sulphate,12.24,1.087781418
+2018,EETR,East Entrance Road,Acid-Sulphate,378.48,2.578042935
+2018,EETR,East Entrance Road,Acid-Sulphate,232.8,2.366982976
+2018,EETR,East Entrance Road,Acid-Sulphate,378,2.5774918
+2018,EETR,East Entrance Road,Acid-Sulphate,26.16,1.41763774
+2018,EETR,East Entrance Road,Acid-Sulphate,1540.32,3.187610954
+2018,EETR,East Entrance Road,Acid-Sulphate,616.32,2.789806261
+2018,EETR,East Entrance Road,Acid-Sulphate,73.44,1.865932668
+2018,EETR,East Entrance Road,Acid-Sulphate,26.4,1.421603927
+2018,EETR,East Entrance Road,Acid-Sulphate,292.08,2.46550182
+2018,EETR,East Entrance Road,Acid-Sulphate,201.12,2.30345526
+2018,EETR,East Entrance Road,Acid-Sulphate,20.16,1.304490528
+2018,EETR,East Entrance Road,Acid-Sulphate,257.76,2.411215523
+2018,EETR,East Entrance Road,Acid-Sulphate,32.4,1.51054501
+2018,EETR,East Entrance Road,Acid-Sulphate,30.48,1.484014963
+2018,EETR,East Entrance Road,Acid-Sulphate,1694.4,3.229015943
+2018,GVNT,Gas Vents,Acid-Sulphate,69.6,1.84260924
+2018,GVNT,Gas Vents,Acid-Sulphate,36.72,1.564902673
+2018,GVNT,Gas Vents,Acid-Sulphate,49.68,1.696181587
+2018,GVNT,Gas Vents,Acid-Sulphate,17.04,1.23146959
+2018,GVNT,Gas Vents,Acid-Sulphate,82.08,1.914237348
+2018,GVNT,Gas Vents,Acid-Sulphate,99.84,1.999304572
+2018,GVNT,Gas Vents,Acid-Sulphate,275.28,2.43977466
+2018,GVNT,Gas Vents,Acid-Sulphate,42.96,1.633064273
+2018,GVNT,Gas Vents,Acid-Sulphate,30.96,1.490800952
+2018,GVNT,Gas Vents,Acid-Sulphate,97.44,1.988737275
+2018,GVNT,Gas Vents,Acid-Sulphate,91.44,1.961136217
+2018,GVNT,Gas Vents,Acid-Sulphate,28.56,1.455758203
+2018,GVNT,Gas Vents,Acid-Sulphate,141.84,2.151798723
+2018,GVNT,Gas Vents,Acid-Sulphate,99.6,1.998259338
+2018,GVNT,Gas Vents,Acid-Sulphate,140.64,2.148108858
+2018,GVNT,Gas Vents,Acid-Sulphate,53.52,1.728516105
+2018,GVNT,Gas Vents,Acid-Sulphate,852.24,2.930561914
+2018,GVNT,Gas Vents,Acid-Sulphate,10.32,1.013679697
+2018,GVNT,Gas Vents,Acid-Sulphate,74.4,1.871572936
+2018,GVNT,Gas Vents,Acid-Sulphate,110.88,2.044853217
+2018,GVNT,Gas Vents,Acid-Sulphate,46.32,1.665768551
+2018,GVNT,Gas Vents,Acid-Sulphate,57.84,1.762228284
+2018,GVNT,Gas Vents,Acid-Sulphate,34.32,1.535547279
+2018,GVNT,Gas Vents,Acid-Sulphate,119.28,2.07656763
+2018,GVNT,Gas Vents,Acid-Sulphate,120.72,2.081779227
+2018,GVNT,Gas Vents,Acid-Sulphate,53.76,1.73045926
+2018,GVNT,Gas Vents,Acid-Sulphate,61.92,1.791830948
+2018,GVNT,Gas Vents,Acid-Sulphate,163.92,2.214631945
+2018,GVNT,Gas Vents,Acid-Sulphate,49.2,1.691965103
+2018,GVNT,Gas Vents,Acid-Sulphate,51.6,1.712649702
+2018,GVNT,Gas Vents,Acid-Sulphate,60,1.77815125
+2018,GVNT,Gas Vents,Acid-Sulphate,56.64,1.753123245
+2018,GVNT,Gas Vents,Acid-Sulphate,61.44,1.788451207
+2018,GVNT,Gas Vents,Acid-Sulphate,5.04,0.702430536
+2018,GVNT,Gas Vents,Acid-Sulphate,9.36,0.971275849
+2018,GVNT,Gas Vents,Acid-Sulphate,19.2,1.283301229
+2018,GVNT,Gas Vents,Acid-Sulphate,4.8,0.681241237
+2018,GVNT,Gas Vents,Acid-Sulphate,98.4,1.992995098
+2018,GVNT,Gas Vents,Acid-Sulphate,4.56,0.658964843
+2018,GVNT,Gas Vents,Acid-Sulphate,2.88,0.459392488
+2018,GVNT,Gas Vents,Acid-Sulphate,64.56,1.809963522
+2018,GVNT,Gas Vents,Acid-Sulphate,28.56,1.455758203
+2018,GVNT,Gas Vents,Acid-Sulphate,110.4,2.042969073
+2018,GVNT,Gas Vents,Acid-Sulphate,25.92,1.413634997
+2018,GVNT,Gas Vents,Acid-Sulphate,106.32,2.026614968
+2018,GVNT,Gas Vents,Acid-Sulphate,18.96,1.277838333
+2018,GVNT,Gas Vents,Acid-Sulphate,119.76,2.078311787
+2018,GVNT,Gas Vents,Acid-Sulphate,204,2.309630167
+2018,GVNT,Gas Vents,Acid-Sulphate,82.32,1.915505362
+2018,GVNT,Gas Vents,Acid-Sulphate,72.48,1.860218185
+2018,GVNT,Gas Vents,Acid-Sulphate,20.16,1.304490528
+2018,GVNT,Gas Vents,Acid-Sulphate,219.6,2.341632336
+2018,GVNT,Gas Vents,Acid-Sulphate,35.76,1.55339751
+2018,GVNT,Gas Vents,Acid-Sulphate,125.28,2.097881745
+2018,GVNT,Gas Vents,Acid-Sulphate,97.92,1.990871405
+2018,GVNT,Gas Vents,Acid-Sulphate,57.6,1.760422483
+2018,GVNT,Gas Vents,Acid-Sulphate,20.16,1.304490528
+2018,GVNT,Gas Vents,Acid-Sulphate,11.76,1.070407322
+2018,GVNT,Gas Vents,Acid-Sulphate,54.72,1.738146089
+2018,GVNT,Gas Vents,Acid-Sulphate,9.84,0.992995098
+2018,GVNT,Gas Vents,Acid-Sulphate,28.8,1.459392488
+2018,GVNT,Gas Vents,Acid-Sulphate,39.36,1.59505509
+2018,GVNT,Gas Vents,Acid-Sulphate,24.24,1.384532615
+2018,GVNT,Gas Vents,Acid-Sulphate,33.12,1.520090328
+2018,MDVC,Mud Volcano,Acid-Sulphate,421.44,2.624735753
+2018,MDVC,Mud Volcano,Acid-Sulphate,67.68,1.83046035
+2018,MDVC,Mud Volcano,Acid-Sulphate,56.64,1.753123245
+2018,MDVC,Mud Volcano,Acid-Sulphate,25.2,1.401400541
+2018,MDVC,Mud Volcano,Acid-Sulphate,198.72,2.298241578
+2018,MDVC,Mud Volcano,Acid-Sulphate,41.52,1.618257345
+2018,MDVC,Mud Volcano,Acid-Sulphate,891.36,2.950053141
+2018,MDVC,Mud Volcano,Acid-Sulphate,54.48,1.736237099
+2018,MDVC,Mud Volcano,Acid-Sulphate,243.6,2.386677284
+2018,MDVC,Mud Volcano,Acid-Sulphate,904.08,2.956206862
+2018,MDVC,Mud Volcano,Acid-Sulphate,5.04,0.702430536
+2018,MDVC,Mud Volcano,Acid-Sulphate,19.92,1.299289334
+2018,MDVC,Mud Volcano,Acid-Sulphate,42.24,1.62572391
+2018,MDVC,Mud Volcano,Acid-Sulphate,182.16,2.260453018
+2018,MDVC,Mud Volcano,Acid-Sulphate,275.04,2.439395859
+2018,MDVC,Mud Volcano,Acid-Sulphate,168.48,2.226548354
+2018,MDVC,Mud Volcano,Acid-Sulphate,119.52,2.077440584
+2018,MDVC,Mud Volcano,Acid-Sulphate,99.12,1.996161293
+2018,MDVC,Mud Volcano,Acid-Sulphate,41.28,1.615739689
+2018,MDVC,Mud Volcano,Acid-Sulphate,102.96,2.012668534
+2018,MDVC,Mud Volcano,Acid-Sulphate,20.16,1.304490528
+2018,MDVC,Mud Volcano,Acid-Sulphate,181.68,2.259307121
+2018,MDVC,Mud Volcano,Acid-Sulphate,78.24,1.893428842
+2018,MDVC,Mud Volcano,Acid-Sulphate,32.88,1.516931809
+2018,MDVC,Mud Volcano,Acid-Sulphate,84.96,1.929214504
+2018,MDVC,Mud Volcano,Acid-Sulphate,137.28,2.137607271
+2018,MDVC,Mud Volcano,Acid-Sulphate,7.92,0.898725182
+2018,MDVC,Mud Volcano,Acid-Sulphate,121.68,2.085219201
+2018,MDVC,Mud Volcano,Acid-Sulphate,75.36,1.87714089
+2018,MDVC,Mud Volcano,Acid-Sulphate,529.2,2.723619836
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,7.68,0.88536122
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,3.6,0.556302501
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,11.76,1.070407322
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.68,0.225309282
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,11.28,1.0523091
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,3.36,0.526339277
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,7.44,0.871572936
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,2.16,0.334453751
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.68,0.225309282
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,129.84,2.113408507
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,6,0.77815125
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.2,0.079181246
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,380.88,2.580788168
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,5.52,0.741939078
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,37.68,1.576110894
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,7.44,0.871572936
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,40.08,1.602927713
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,7.68,0.88536122
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,0.96,-0.017728767
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,2.4,0.380211242
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,410.88,2.613715002
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,3.12,0.494154594
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,11.52,1.061452479
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,10.32,1.013679697
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,388.08,2.588921262
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,389.04,2.589994257
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,68.64,1.836577275
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,13.92,1.143639235
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,2.64,0.421603927
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.68,0.225309282
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,0.96,-0.017728767
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.44,0.158362492
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,,
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,1.92,0.283301229
+2018,YLSK,Yellowstone Lake,Acid-Sulphate,0.48,-0.318758763
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.16,0.334453751
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,5.04,0.702430536
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,9.36,0.971275849
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.08,0.610660163
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.8,0.681241237
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.16,0.334453751
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.56,0.658964843
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.88,0.459392488
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,7.44,0.871572936
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.88,0.459392488
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.64,0.421603927
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,6.96,0.84260924
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,12.96,1.112605002
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,16.32,1.212720154
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,1.68,0.225309282
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,,
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,,
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,,
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,,
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,1.44,0.158362492
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,8.16,0.911690159
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.56,0.658964843
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,5.04,0.702430536
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,9.36,0.971275849
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,12.96,1.112605002
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.8,0.681241237
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,10.8,1.033423755
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,4.56,0.658964843
+2018,CLPD,Clepsydra Geyser,Neutral-Chloride,2.88,0.459392488
+2018,CSTL,Castle Geyser,Neutral-Chloride,1.2,0.079181246
+2018,CSTL,Castle Geyser,Neutral-Chloride,2.4,0.380211242
+2018,CSTL,Castle Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,CSTL,Castle Geyser,Neutral-Chloride,,
+2018,CSTL,Castle Geyser,Neutral-Chloride,1.44,0.158362492
+2018,CSTL,Castle Geyser,Neutral-Chloride,,
+2018,CSTL,Castle Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,CSTL,Castle Geyser,Neutral-Chloride,1118.4,3.048597158
+2018,CSTL,Castle Geyser,Neutral-Chloride,,
+2018,CSTL,Castle Geyser,Neutral-Chloride,,
+2018,CSTL,Castle Geyser,Neutral-Chloride,,
+2018,CSTL,Castle Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,CSTL,Castle Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,DISY,Daisy Geyser,Neutral-Chloride,7.2,0.857332496
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.4,0.380211242
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.56,0.658964843
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.8,0.681241237
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.8,0.681241237
+2018,DISY,Daisy Geyser,Neutral-Chloride,9.6,0.982271233
+2018,DISY,Daisy Geyser,Neutral-Chloride,6.72,0.827369273
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.56,0.658964843
+2018,DISY,Daisy Geyser,Neutral-Chloride,6.96,0.84260924
+2018,DISY,Daisy Geyser,Neutral-Chloride,9.12,0.959994838
+2018,DISY,Daisy Geyser,Neutral-Chloride,8.64,0.936513742
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.56,0.658964843
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.56,0.658964843
+2018,DISY,Daisy Geyser,Neutral-Chloride,10.32,1.013679697
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.64,0.421603927
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.08,0.610660163
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.84,0.584331224
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.08,0.610660163
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.4,0.380211242
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.16,0.334453751
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.8,0.681241237
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.88,0.459392488
+2018,DISY,Daisy Geyser,Neutral-Chloride,7.68,0.88536122
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.6,0.556302501
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.12,0.494154594
+2018,DISY,Daisy Geyser,Neutral-Chloride,5.28,0.722633923
+2018,DISY,Daisy Geyser,Neutral-Chloride,8.16,0.911690159
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.96,-0.017728767
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.08,0.610660163
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,DISY,Daisy Geyser,Neutral-Chloride,1.44,0.158362492
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.88,0.459392488
+2018,DISY,Daisy Geyser,Neutral-Chloride,1.44,0.158362492
+2018,DISY,Daisy Geyser,Neutral-Chloride,1.68,0.225309282
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.36,0.526339277
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.12,0.494154594
+2018,DISY,Daisy Geyser,Neutral-Chloride,1.68,0.225309282
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,DISY,Daisy Geyser,Neutral-Chloride,2.16,0.334453751
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,DISY,Daisy Geyser,Neutral-Chloride,3.84,0.584331224
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,DISY,Daisy Geyser,Neutral-Chloride,4.32,0.635483747
+2018,DISY,Daisy Geyser,Neutral-Chloride,0.96,-0.017728767
+2018,DISY,Daisy Geyser,Neutral-Chloride,1.68,0.225309282
+2018,DISY,Daisy Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,2.64,0.421603927
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,6.96,0.84260924
+2018,GRND,Grand Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,GRND,Grand Geyser,Neutral-Chloride,61.44,1.788451207
+2018,GRND,Grand Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,GRND,Grand Geyser,Neutral-Chloride,0.48,-0.318758763
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,GRND,Grand Geyser,Neutral-Chloride,2.16,0.334453751
+2018,GRND,Grand Geyser,Neutral-Chloride,0.96,-0.017728767
+2018,GRND,Grand Geyser,Neutral-Chloride,0.72,-0.142667504
+2018,GRND,Grand Geyser,Neutral-Chloride,0.24,-0.619788758
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,6.72,0.827369273
+2018,GRND,Grand Geyser,Neutral-Chloride,,
+2018,GRND,Grand Geyser,Neutral-Chloride,6.96,0.84260924
+2018,GRND,Grand Geyser,Neutral-Chloride,3.6,0.556302501
+2018,GRND,Grand Geyser,Neutral-Chloride,3.12,0.494154594
+2018,WTHB,West Thumb,Neutral-Chloride,7.92,0.898725182
+2018,WTHB,West Thumb,Neutral-Chloride,12.48,1.096214585
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,5.04,0.702430536
+2018,WTHB,West Thumb,Neutral-Chloride,6.72,0.827369273
+2018,WTHB,West Thumb,Neutral-Chloride,4.56,0.658964843
+2018,WTHB,West Thumb,Neutral-Chloride,9.12,0.959994838
+2018,WTHB,West Thumb,Neutral-Chloride,9.36,0.971275849
+2018,WTHB,West Thumb,Neutral-Chloride,5.52,0.741939078
+2018,WTHB,West Thumb,Neutral-Chloride,21.12,1.324693914
+2018,WTHB,West Thumb,Neutral-Chloride,7.92,0.898725182
+2018,WTHB,West Thumb,Neutral-Chloride,3.84,0.584331224
+2018,WTHB,West Thumb,Neutral-Chloride,8.64,0.936513742
+2018,WTHB,West Thumb,Neutral-Chloride,5.28,0.722633923
+2018,WTHB,West Thumb,Neutral-Chloride,4.56,0.658964843
+2018,WTHB,West Thumb,Neutral-Chloride,7.92,0.898725182
+2018,WTHB,West Thumb,Neutral-Chloride,1.92,0.283301229
+2018,WTHB,West Thumb,Neutral-Chloride,2.16,0.334453751
+2018,WTHB,West Thumb,Neutral-Chloride,3.84,0.584331224
+2018,WTHB,West Thumb,Neutral-Chloride,2.64,0.421603927
+2018,WTHB,West Thumb,Neutral-Chloride,1.92,0.283301229
+2018,WTHB,West Thumb,Neutral-Chloride,1.68,0.225309282
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,2.4,0.380211242
+2018,WTHB,West Thumb,Neutral-Chloride,1.44,0.158362492
+2018,WTHB,West Thumb,Neutral-Chloride,6.72,0.827369273
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,1.68,0.225309282
+2018,WTHB,West Thumb,Neutral-Chloride,0.24,-0.619788758
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,1.2,0.079181246
+2018,WTHB,West Thumb,Neutral-Chloride,2.16,0.334453751
+2018,WTHB,West Thumb,Neutral-Chloride,2.64,0.421603927
+2018,WTHB,West Thumb,Neutral-Chloride,1.2,0.079181246
+2018,WTHB,West Thumb,Neutral-Chloride,1.44,0.158362492
+2018,WTHB,West Thumb,Neutral-Chloride,5.52,0.741939078
+2018,WTHB,West Thumb,Neutral-Chloride,1.44,0.158362492
+2018,WTHB,West Thumb,Neutral-Chloride,3.6,0.556302501
+2018,WTHB,West Thumb,Neutral-Chloride,1.68,0.225309282
+2018,WTHB,West Thumb,Neutral-Chloride,2.16,0.334453751
+2018,WTHB,West Thumb,Neutral-Chloride,1.68,0.225309282
+2018,WTHB,West Thumb,Neutral-Chloride,51.12,1.708590845
+2018,WTHB,West Thumb,Neutral-Chloride,0.48,-0.318758763
+2018,WTHB,West Thumb,Neutral-Chloride,0.24,-0.619788758
+2018,WTHB,West Thumb,Neutral-Chloride,8.64,0.936513742
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,0.24,-0.619788758
+2018,WTHB,West Thumb,Neutral-Chloride,0.48,-0.318758763
+2018,WTHB,West Thumb,Neutral-Chloride,0.48,-0.318758763
+2018,WTHB,West Thumb,Neutral-Chloride,1.2,0.079181246
+2018,WTHB,West Thumb,Neutral-Chloride,4.56,0.658964843
+2018,WTHB,West Thumb,Neutral-Chloride,2.88,0.459392488
+2018,WTHB,West Thumb,Neutral-Chloride,0.24,-0.619788758
+2018,WTHB,West Thumb,Neutral-Chloride,5.28,0.722633923
+2018,WTHB,West Thumb,Neutral-Chloride,2.16,0.334453751
+2018,WTHB,West Thumb,Neutral-Chloride,,
+2018,WTHB,West Thumb,Neutral-Chloride,12.72,1.104487111
+2018,WTHB,West Thumb,Neutral-Chloride,4.56,0.658964843
+2018,WTHB,West Thumb,Neutral-Chloride,12.24,1.087781418
+2018,WTHB,West Thumb,Neutral-Chloride,9.12,0.959994838
+2018,GBSN,Terrace Springs,Travertine,421.44,2.624735753
+2018,GBSN,Terrace Springs,Travertine,67.68,1.83046035
+2018,GBSN,Terrace Springs,Travertine,56.64,1.753123245
+2018,GBSN,Terrace Springs,Travertine,25.2,1.401400541
+2018,GBSN,Terrace Springs,Travertine,198.72,2.298241578
+2018,GBSN,Terrace Springs,Travertine,3.12,0.494154594
+2018,GBSN,Terrace Springs,Travertine,0.48,-0.318758763
+2018,GBSN,Terrace Springs,Travertine,3.12,0.494154594
+2018,GBSN,Terrace Springs,Travertine,2.16,0.334453751
+2018,GBSN,Terrace Springs,Travertine,2.88,0.459392488
+2018,GBSN,Terrace Springs,Travertine,2.88,0.459392488
+2018,GBSN,Terrace Springs,Travertine,,
+2018,GBSN,Terrace Springs,Travertine,6.48,0.811575006
+2018,GBSN,Terrace Springs,Travertine,2.64,0.421603927
+2018,GBSN,Terrace Springs,Travertine,3.36,0.526339277
+2018,GBSN,Terrace Springs,Travertine,2.64,0.421603927
+2018,GBSN,Terrace Springs,Travertine,3.84,0.584331224
+2018,GBSN,Terrace Springs,Travertine,2.16,0.334453751
+2018,GBSN,Terrace Springs,Travertine,3.84,0.584331224
+2018,GBSN,Terrace Springs,Travertine,5.04,0.702430536
+2018,GBSN,Terrace Springs,Travertine,,
+2018,GBSN,Terrace Springs,Travertine,1.2,0.079181246
+2018,GBSN,Terrace Springs,Travertine,2.88,0.459392488
+2018,GBSN,Terrace Springs,Travertine,0.72,-0.142667504
+2018,GBSN,Terrace Springs,Travertine,2.4,0.380211242
+2018,GBSN,Terrace Springs,Travertine,3.12,0.494154594
+2018,GBSN,Terrace Springs,Travertine,6.96,0.84260924
+2018,GBSN,Terrace Springs,Travertine,1.92,0.283301229
+2018,GBSN,Terrace Springs,Travertine,1.68,0.225309282
+2018,GBSN,Terrace Springs,Travertine,1.44,0.158362492
+2018,GBSN,Terrace Springs,Travertine,1.2,0.079181246
+2018,GBSN,Terrace Springs,Travertine,0.96,-0.017728767
+2018,GBSN,Terrace Springs,Travertine,0.72,-0.142667504
+2018,GBSN,Terrace Springs,Travertine,,
+2018,GBSN,Terrace Springs,Travertine,1.2,0.079181246
+2018,GBSN,Terrace Springs,Travertine,,
+2018,GBSN,Terrace Springs,Travertine,,
+2018,GBSN,Terrace Springs,Travertine,1.44,0.158362492
+2018,GBSN,Terrace Springs,Travertine,2.88,0.459392488
+2018,GBSN,Terrace Springs,Travertine,4.56,0.658964843
+2018,GBSN,Terrace Springs,Travertine,2.16,0.334453751
+2018,GBSN,Terrace Springs,Travertine,0.24,-0.619788758
+2018,MMTH,Mammoth Hot Springs,Travertine,8.4,0.924279286
+2018,MMTH,Mammoth Hot Springs,Travertine,28.8,1.459392488
+2018,MMTH,Mammoth Hot Springs,Travertine,21.84,1.339252634
+2018,MMTH,Mammoth Hot Springs,Travertine,6.48,0.811575006
+2018,MMTH,Mammoth Hot Springs,Travertine,30.24,1.480581787
+2018,MMTH,Mammoth Hot Springs,Travertine,0.48,-0.318758763
+2018,MMTH,Mammoth Hot Springs,Travertine,,
+2018,MMTH,Mammoth Hot Springs,Travertine,7.2,0.857332496
+2018,MMTH,Mammoth Hot Springs,Travertine,1.44,0.158362492
+2018,MMTH,Mammoth Hot Springs,Travertine,8.16,0.911690159
+2018,MMTH,Mammoth Hot Springs,Travertine,2.64,0.421603927
+2018,MMTH,Mammoth Hot Springs,Travertine,,
+2018,MMTH,Mammoth Hot Springs,Travertine,,
+2018,NEER,Northeast Entrance Road,Unclassified,31.92,1.504062883
+2018,NEER,Northeast Entrance Road,Unclassified,27.84,1.444669231
+2018,NEER,Northeast Entrance Road,Unclassified,15.12,1.179551791
+2018,NEER,Northeast Entrance Road,Unclassified,31.68,1.500785173
+2018,NEER,Northeast Entrance Road,Unclassified,19.92,1.299289334
+2018,NEER,Northeast Entrance Road,Unclassified,47.28,1.674677468
+2018,NEER,Northeast Entrance Road,Unclassified,42.24,1.62572391
+2018,NEER,Northeast Entrance Road,Unclassified,18.96,1.277838333
+2018,NEER,Northeast Entrance Road,Unclassified,7.44,0.871572936
+2018,NEER,Northeast Entrance Road,Unclassified,8.64,0.936513742
+2018,NEER,Northeast Entrance Road,Unclassified,13.92,1.143639235
+2018,NEER,Northeast Entrance Road,Unclassified,6.96,0.84260924
+2018,NEER,Northeast Entrance Road,Unclassified,7.68,0.88536122
+2018,NEER,Northeast Entrance Road,Unclassified,4.56,0.658964843
+2018,NEER,Northeast Entrance Road,Unclassified,42.24,1.62572391
+2018,NEER,Northeast Entrance Road,Unclassified,15.12,1.179551791
+2018,NEER,Northeast Entrance Road,Unclassified,3.36,0.526339277
+2018,NEER,Northeast Entrance Road,Unclassified,5.04,0.702430536
+2018,NEER,Northeast Entrance Road,Unclassified,4.08,0.610660163
+2018,NEER,Northeast Entrance Road,Unclassified,3.36,0.526339277
+2018,NEER,Northeast Entrance Road,Unclassified,5.28,0.722633923
+2018,NEER,Northeast Entrance Road,Unclassified,8.16,0.911690159
+2018,NEER,Northeast Entrance Road,Unclassified,13.92,1.143639235
+2018,NEER,Northeast Entrance Road,Unclassified,8.4,0.924279286
+2018,NEER,Northeast Entrance Road,Unclassified,19.92,1.299289334
+2018,NEER,Northeast Entrance Road,Unclassified,27.84,1.444669231
+2018,NEER,Northeast Entrance Road,Unclassified,15.12,1.179551791
+2018,NEER,Northeast Entrance Road,Unclassified,9.12,0.959994838
+2018,NEER,Northeast Entrance Road,Unclassified,19.92,1.299289334
+2018,NEER,Northeast Entrance Road,Unclassified,14.88,1.172602931
+2018,NEER,Northeast Entrance Road,Unclassified,42.24,1.62572391
+2018,NEER,Northeast Entrance Road,Unclassified,18.96,1.277838333
+2018,NEER,Northeast Entrance Road,Unclassified,19.44,1.288696261
+2018,NEER,Northeast Entrance Road,Unclassified,9.12,0.959994838
+2018,NEER,Northeast Entrance Road,Unclassified,42,1.62324929
+2018,NEER,Northeast Entrance Road,Unclassified,40.08,1.602927713
+2018,NEER,Northeast Entrance Road,Unclassified,57.36,1.758609143
+2018,NEER,Northeast Entrance Road,Unclassified,5.04,0.702430536
+2018,NEER,Northeast Entrance Road,Unclassified,36,1.556302501
+2018,NEER,Northeast Entrance Road,Unclassified,48.72,1.68770728
+2018,NEER,Northeast Entrance Road,Unclassified,5.52,0.741939078
+2018,NEER,Northeast Entrance Road,Unclassified,9.12,0.959994838
+2018,NEER,Northeast Entrance Road,Unclassified,5.76,0.760422483
+2018,NEER,Northeast Entrance Road,Unclassified,4.56,0.658964843
+2018,NEER,Northeast Entrance Road,Unclassified,4.8,0.681241237
+2018,NEER,Northeast Entrance Road,Unclassified,5.04,0.702430536
+2018,NEER,Northeast Entrance Road,Unclassified,5.52,0.741939078
+2018,NEER,Northeast Entrance Road,Unclassified,0.24,-0.619788758
+2018,NEER,Northeast Entrance Road,Unclassified,15.6,1.193124598
+2018,NEER,Northeast Entrance Road,Unclassified,14.64,1.165541077
+2018,NEER,Northeast Entrance Road,Unclassified,9.36,0.971275849
+2018,NEER,Northeast Entrance Road,Unclassified,16.8,1.225309282
+2018,NEER,Northeast Entrance Road,Unclassified,10.56,1.023663918
+2018,NEER,Northeast Entrance Road,Unclassified,19.44,1.288696261
+2018,NEER,Northeast Entrance Road,Unclassified,18.24,1.261024834
+2018,NEER,Northeast Entrance Road,Unclassified,14.16,1.151063253
+2018,NEER,Northeast Entrance Road,Unclassified,35.52,1.550472957
+2018,NEER,Northeast Entrance Road,Unclassified,41.04,1.613207352
+2018,NEER,Northeast Entrance Road,Unclassified,31.2,1.494154594
+2018,NEER,Northeast Entrance Road,Unclassified,25.92,1.413634997
+2018,NEER,Northeast Entrance Road,Unclassified,72,1.857332496
+2018,NEER,Northeast Entrance Road,Unclassified,25.92,1.413634997
+2018,NEER,Northeast Entrance Road,Unclassified,28.08,1.448397103
+2018,NEER,Northeast Entrance Road,Unclassified,39.6,1.597695186

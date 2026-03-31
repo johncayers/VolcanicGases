@@ -3,17 +3,18 @@ library(car)
 library(gplots)
 library(nortest)
 library(EnvStats)
+library(svglite)
 setwd("C:/Users/ayersj/OneDrive - Vanderbilt/Projects/VolcanicGases/Yellowstone/Data/EGM_CO2_Fluxes/All")
 CO2Fluxes <- read_csv("EGM_CO2FluxesAllDataWithSoilTypePositiveFluxes.csv")
 CO2Fluxes$Site <- factor(CO2Fluxes$Site)
 CO2Fluxes$Soil_Type <- factor(CO2Fluxes$Soil_Type)
-hist(CO2Fluxes$fCO2, xlab = "CO2 Flux (g m-2 h-1)", main = "Histogram of CO2 Fluxes")
+hist(CO2Fluxes$fCO2, xlab = "CO2 Flux (g m-2 d-1)", main = "Histogram of CO2 Fluxes")
 # Make Boxcox plots for fCO2 using EnvStats (see Millard 2013 pp. 75-77) to ID distribution type 
 # CO2Fluxes$fCO2t <- replace(CO2Fluxes$fCO2, which(CO2Fluxes$fCO2 <= 0), NA)
 boxcox.list <- boxcox(CO2Fluxes$fCO2)
-plot(boxcox.list, main = "CO2 Flux (g m-2 h-1)")
+plot(boxcox.list, main = "CO2 Flux (g m-2 d-1)")
 # Peaks at a value of lambda = 0, indicating a log transform is appropriate.
-hist(CO2Fluxes$log10fCO2, xlab = "log10 CO2 Flux (g m-2 h-1)", main = "Histogram of log10 CO2 Fluxes")
+hist(CO2Fluxes$log10fCO2, xlab = "log10 CO2 Flux (g m-2 d-1)", main = "Histogram of log10 CO2 Fluxes")
 # Test for normality
 lillie.test(CO2Fluxes$log10fCO2)
 # P < 0.05, so reject the null hypothesis that log10fCO2 distribution is normal
@@ -40,12 +41,13 @@ p = ggplot(CO2Fluxes, aes(x = Site, y = log10fCO2, fill = Soil_Type, position = 
   theme_bw() +
   # scale_fill_grey(start = 0, end = .9) +
   scale_fill_discrete() +
-  scale_y_continuous(breaks = seq(-3, 2, by = 1)) +
+  scale_y_continuous(breaks = seq(-4, 4, by = 1)) +
+  # scale_x_discrete(expand(1,1)) +
   theme(axis.title.x=element_blank(),
-        axis.text.x=element_text(angle=45, size=11, hjust = 1)) +
-  labs(y = "log fCO2 (g m-2 h-1)") +
-  stat_n_text(angle = 45, vjust = -1)
-print(p)
+        axis.text.x=element_text(angle=90, size=11, hjust = 0)) +
+  labs(y = "log fCO2 (g m-2 d-1)")
+  # stat_n_text(angle = 90, vjust = 0, hjust = 0)
+# print(p)
 ggsave("log10fCO2BoxplotColor.svg", plot = p)
 # Use Levene's test to test if sites have the same variance for log10fCO2 (test for homoscedasticity). 
 leveneTest(CO2Fluxes$log10fCO2, CO2Fluxes$Site)
